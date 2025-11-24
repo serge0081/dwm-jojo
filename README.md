@@ -1,58 +1,112 @@
-🌀 dwm-jojo — My Personalized Nordic Tiling Environment
+# 🌀 dwm-jojo — My Personalized Nordic Tiling Environment
 
-A fully customized, visually expressive, and workflow-focused dwm rice, built around the Nord color scheme and tuned with patches, configs, and tools that create a clean, fast, and unified desktop experience.
+A fully customized and unified tiling window manager setup based on **suckless dwm**, styled with the **Nord color scheme** and enhanced with personal configs for **kitty**, **slstatus**, **dmenu**, and **lf**.  
+Minimal, fast, expressive, and built for workflow.
 
-✨ Features & Patches
-🔷 dwm
+---
 
-Nord Color Scheme throughout the UI
+## 📸 Screenshots
 
-Bar Height Patch — improved readability and better status2d aesthetics
+> *(Replace these with your actual screenshots)*
 
-Cfact Patch — fine-grained control over window ratios
+### 📼 Desktop Overview  
+![Desktop Screenshot](screenshots/desktop.png)
 
-Vanity Gaps — clean, modern spacing around windows
+### 🧱 Tiled Workspace  
+![Tiling Screenshot](screenshots/tiling.png)
 
-Rainbow Tags — instantly recognizable workspaces
+### 🐱 Kitty + lf Preview  
+![Kitty + LF Screenshot](screenshots/kitty_lf.png)
 
-status2d Support — advanced, colorized, segmented bar output
+### 🔍 dmenu  
+![dmenu Screenshot](screenshots/dmenu.png)
 
-Fast, minimal, and expressive — keeping suckless philosophy intact
+---
 
-🧩 Part of a Complete Setup
-🐱 Kitty Terminal
+## 🔧 Dependencies
 
-Custom Nord-themed kitty.conf
+### Required for **dwm**
+Make sure these packages are installed before building:
+- **make**
+- **gcc** (or any C compiler)
+- **libx11** (X11 core library)
+- **libxft** (font rendering)
+- **libxinerama** (multi-display support)
+- **libxrender**
+- **libxext**
 
-Smooth fonts, transparency options, and a clean minimal look
+### Optional / Recommended (for your full setup)
+These enhance your patched build of dwm-jojo:
 
-Perfectly matched to your dwm colors
+#### For status2d, glyphs & bar icons:
+- **nerd-fonts** (or any patched font)
+- **otf-font-awesome** (optional)
+- **libxft-bgra** (if needed for emoji/colored glyph support)
 
-📊 slstatus
+#### For Kitty terminal:
+- **kitty**  
+- **fcitx / ibus** (if using input methods)
 
-Your own slstatus build integrated with status2d
+#### For slstatus:
+- **slstatus** (custom build included)  
+- **acpi**, **procfs**, or distro equivalents for battery/CPU/temp
 
-Custom modules for clean system info
+#### For dmenu:
+- **dmenu** (your patched build)
+- **libxft**
+- **libx11**
 
-Color segments matching the Nord palette
+#### For lf file manager:
+- **lf**
+- **ueberzugpp** or **sixel support** in terminal (for image previews)
+- **kitty** (required for kitty-style previews)
+- Optional helpers: `bat`, `fzf`, `mediainfo`, `ffmpegthumbnailer`
 
-🔍 dmenu
+---
 
-Personalized dmenu build
+## ✨ dwm Features & Patches
 
-Nord colors, patched for visual clarity and smooth interaction
+- **Nord Color Scheme** across the entire UI  
+- **Bar Height Patch** for better readability and aesthetic balance  
+- **Cfact Patch** allowing fine-grained window ratio control  
+- **Vanity Gaps** for clean spacing and modern layout  
+- **Rainbow Tags** for instant visual tagging of workspaces  
+- **status2d Support** enabling segmented, color-coded bar information  
+- **Lightweight & Fast**, staying true to the suckless philosophy  
 
-Consistent look across your whole workflow
+---
 
-📁 lf File Manager
+## 🧩 Additional Components in the Setup
 
-Custom lf config with efficient keybindings
+### 🐱 Kitty Terminal (Nord-themed)
+- Custom `kitty.conf` with Nord colors  
+- Smooth, minimal fonts  
+- Works perfectly with image previews in lf  
+- Matches the whole DWN theme visually  
 
-Image preview support (kitty-compatible)
+### 📊 slstatus (with status2d)
+- Custom modules & color segments  
+- Clean system information  
+- Integrated directly into the dwm bar  
 
-Nord accenting + minimal aesthetics
+### 🔍 dmenu (Personal Build)
+- Nord color palette  
+- Clean, simple, patched for your workflow  
+- Fully consistent with the rest of the UI  
 
-🎨 Philosophy
+### 📁 lf File Manager (Custom Config)
+- Efficient keybindings  
+- Kitty-compatible image previews  
+- Minimal and Nord-aligned  
 
-A unified environment where everything — dwm, terminal, launcher, bar, and file manager — flows together with a calm Nordic vibe.
-Fast, minimal, personal, and expressive.
+---
+
+## 🎨 Philosophy
+
+A cohesive, calm, and aesthetic workflow built on:  
+- **Nord colors**  
+- **Minimal principles**  
+- **Fast tools**  
+- **Personal expression**  
+
+Everything works together — **dwm, kitty, slstatus, dmenu, and lf** — to form a unified environment that feels clean, responsive, and truly yours.
