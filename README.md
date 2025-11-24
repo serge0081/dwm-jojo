@@ -39,7 +39,7 @@ Make sure these packages are installed before building:
 These enhance your patched build of dwm-jojo:
 
 #### For status2d, glyphs & bar icons:
-- **nerd-fonts*Mononoki Nerd Fonts*
+- **nerd-fonts* (Mononoki Nerd Fonts) *
 - **otf-font-awesome** (optional)
 - **libxft-bgra** (if needed for emoji/colored glyph support)
 
