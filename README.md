@@ -1,23 +1,58 @@
-🌀 dwm-jojo — My Customized Build of dwm
+🌀 dwm-jojo — My Personalized Nordic Tiling Environment
 
-A heavily customized and visually expressive build of suckless dwm, tuned for a clean workflow, better window control, and a calm Nordic aesthetic.
+A fully customized, visually expressive, and workflow-focused dwm rice, built around the Nord color scheme and tuned with patches, configs, and tools that create a clean, fast, and unified desktop experience.
 
-✨ Features
+✨ Features & Patches
+🔷 dwm
 
-Nord Color Scheme – cool, arctic tones for a clean, balanced look across the whole UI.
+Nord Color Scheme throughout the UI
 
-Increased Bar Height – cleaner readability and perfect pairing with status2d icons.
+Bar Height Patch — improved readability and better status2d aesthetics
 
-Cfact Patch – precise control over window size ratios.
+Cfact Patch — fine-grained control over window ratios
 
-Vanity Gaps – adjustable gaps for a modern, spacious layout.
+Vanity Gaps — clean, modern spacing around windows
 
-Rainbow Tags – each workspace gets its own color highlight for quick visual navigation.
+Rainbow Tags — instantly recognizable workspaces
 
-status2d Support – colorized, segmented, and icon-friendly status lines.
+status2d Support — advanced, colorized, segmented bar output
 
-Lightweight & Fast – stays true to the minimal suckless philosophy, just way more expressive.
+Fast, minimal, and expressive — keeping suckless philosophy intact
+
+🧩 Part of a Complete Setup
+🐱 Kitty Terminal
+
+Custom Nord-themed kitty.conf
+
+Smooth fonts, transparency options, and a clean minimal look
+
+Perfectly matched to your dwm colors
+
+📊 slstatus
+
+Your own slstatus build integrated with status2d
+
+Custom modules for clean system info
+
+Color segments matching the Nord palette
+
+🔍 dmenu
+
+Personalized dmenu build
+
+Nord colors, patched for visual clarity and smooth interaction
+
+Consistent look across your whole workflow
+
+📁 lf File Manager
+
+Custom lf config with efficient keybindings
+
+Image preview support (kitty-compatible)
+
+Nord accenting + minimal aesthetics
 
 🎨 Philosophy
 
-Minimalism with personality — fast, efficient tiling powered by dwm, styled with the calming Nord palette and playful rainbow tag accents.
+A unified environment where everything — dwm, terminal, launcher, bar, and file manager — flows together with a calm Nordic vibe.
+Fast, minimal, personal, and expressive.
